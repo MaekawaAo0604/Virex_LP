@@ -21,11 +21,12 @@ export default function About() {
           <div className="card bg-blue-50 border-primary-200 mt-6 mb-6">
             <h3 className="font-bold text-gray-900 mb-2 flex items-center">
               <span className="text-primary-600 mr-2">💡</span>
-              PoC（ピー・オー・シー）とは？
+              PoC（ポック）とは？
             </h3>
             <p className="text-gray-700 leading-relaxed">
-              本番のシステムをいきなり作る前に、
-              まずは<strong>小さく作って、現場で試してみるためのお試し版</strong>のことです。
+              本番のシステムをいきなり作る前に、 まずは
+              <strong>小さく作って、現場で試してみるためのお試し版</strong>
+              のことです。
               <br />
               Virexは、このPoCをたくさん回すことで、
               「本当に役に立つAIの使い方」を見つけていきます。
