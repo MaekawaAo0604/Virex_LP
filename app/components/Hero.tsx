@@ -10,16 +10,18 @@ export default function Hero() {
             Virex(ヴィレックス)
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-8">
-            試すスピードで、
+            AIで仕事をラクにする、
             <br className="hidden sm:block" />
-            AIプロダクトを量産するスタジオ。
+            お試し開発の専門チーム。
           </h1>
         </div>
 
         <p className="text-xl text-gray-700 leading-relaxed mb-12 max-w-3xl mx-auto">
           Virexは、「とりあえずやってみたい」をそのまま流さず、
           <br className="hidden sm:block" />
-          AI×Web開発で小さなプロダクトやPoCをどんどん形にして検証しているチームです。
+          AIを使った小さなツールやシステムをどんどん形にして、
+          <br className="hidden sm:block" />
+          実際に使ってもらいながら検証しているチームです。
           <br />
           <br />
           まだ完璧なサービスではなく、試作品の段階。
@@ -29,10 +31,10 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="#prototypes" className="btn-primary">
-            進行中のプロトタイプを見る
+            進行中のお試しツールを見る
           </a>
           <a href="#contact" className="btn-secondary">
-            PoC・実験の相談をする
+            お試し開発の相談をする
           </a>
         </div>
       </div>

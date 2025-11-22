@@ -3,12 +3,12 @@ export default function WhyPoC() {
     <section id="why-poc" className="bg-gray-50">
       <div className="section-container">
         <h2 className="section-heading text-center mb-12">
-          いきなり"立派なサービス"にしない理由
+          なぜ、いきなり本番ではなく「小さなお試し開発（PoC）」から始めるのか
         </h2>
 
         <div className="max-w-3xl mx-auto">
           <p className="section-text">
-            AIまわりのプロダクトは、机上のアイデアと、現場での手応えがズレやすい分野です。
+            AIまわりのプロダクトは、机上のアイデアと現場での手ごたえがズレやすい分野です。
           </p>
 
           <ul className="space-y-3 mb-6 pl-5">
@@ -24,8 +24,11 @@ export default function WhyPoC() {
           </ul>
 
           <p className="section-text">
-            このパターンを避けるために、Virexは最初から
-            「小さくつくって、少人数に当てて、フィードバックをもらう」ことを前提に動いています。
+            そこでVirexは、最初から「小さなお試し開発（PoC）」を前提に動きます。
+            <br />
+            数か月でPoCをつくり、少人数の現場に当てて、率直なフィードバックをもらう。
+            <br />
+            良さそうならPoCを育てて本番に近づけ、微妙ならそのPoCは畳む。
           </p>
 
           <div className="card bg-white mt-8">
@@ -46,8 +49,7 @@ export default function WhyPoC() {
           </div>
 
           <p className="section-text mt-6">
-            そのサイクルを、高速で何周も回すこと自体を、
-            Virexのコア活動にしています。
+            この「PoCを高速で何本も回すこと」自体を、Virexの核心にしています。
           </p>
         </div>
       </div>
