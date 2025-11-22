@@ -30,11 +30,19 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#prototypes" className="btn-primary">
-            進行中のお試しツールを見る
+          <a
+            href="https://aisen.virex-ai.jp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-full bg-primary-600 px-8 py-3 text-base font-semibold text-white shadow-lg hover:bg-primary-700 transition"
+          >
+            お試しツールを見る
           </a>
-          <a href="#contact" className="btn-secondary">
-            お試し開発の相談をする
+          <a
+            href="#contact"
+            className="inline-flex items-center justify-center rounded-full border-2 border-primary-600 px-8 py-3 text-base font-semibold text-primary-600 hover:bg-primary-50 transition"
+          >
+            実験・相談の問い合わせ
           </a>
         </div>
       </div>
